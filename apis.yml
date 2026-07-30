@@ -1,8 +1,23 @@
 aid: marianaminerals
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marianaminerals.png
 name: Marianaminerals
-description: Marianaminerals is a company surfaced as a portfolio company of khosla-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Mariana Minerals is a software-first, vertically integrated critical-minerals company
+  supplying the metals essential to modern energy, artificial intelligence, and defense technologies.
+  The company currently develops copper and lithium production projects, with plans spanning cobalt,
+  aluminum, graphite, uranium, and rare earth metals, and is headquartered in San Francisco with an
+  engineering office in Houston. Backed by Khosla Ventures, it was added to the API Evangelist network
+  as a portfolio lead; an enrichment pass found no public developer API, SDK, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/marianaminerals/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Critical Minerals
+- Mining
+- Copper
+- Lithium
+- Energy
+- Defense
+- Supply Chain
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/marianaminerals-domain-security.yml
 - type: Website
   url: https://marianaminerals.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
